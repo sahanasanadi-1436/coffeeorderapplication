@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="D:\sahana\project\coffeecss.css">
+</head>
+<body>
+    <section id="menu" class="py-5">
+         <nav class="navbar navbar-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="coffee.html" style="color:rgb(233, 223, 220)"><b class="bi bi-house-heart"><br>Home</b></a>
+        <a class="navbar-brand" href="about.html" style="color:rgb(233, 223, 220)"><b class="bi bi-people"><br>About us</b></a>
+    </div>
+     <div class="d-flex align-items-center gap-2">  <div id="userSection"></div>
+   
+<a href="./cart.html" class="btn btn-warning ms-3">
+  🛒 Cart <span id="cartCount">0</span>
+</a>
+</nav>
+  <div class="container-fluid">
+    <h2 class="text-center mb-3" style="color: wheat; font-weight: bold; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font: size 500px;;">Our Menu</h2>
+    <!-- Card -->
+    <div class="row g-3">
+      <div class="col-md-3">
+        <div class="card text-center">
+          <img src="D:\sahana\project\Expresso.jpeg" class="card-img-top">
+          <div class="card-body">
+            <h5>Espresso</h5>
+            <p>₹80</p>
+            <button class="btn btn-dark" onclick="addToCart('Espresso', 80)">
+  Order Now
+</button>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card text-center">
+          <img src="D:\sahana\project\Cappuccino.jpeg" class="card-img-top">
+          <div class="card-body">
+            <h5>Cappuccino</h5>
+            <p>₹150</p>
+            <button class="btn btn-dark" onclick="addToCart('Cappuccino', 150)">
+  Order Now
+</button>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card text-center">
+          <img src="D:\sahana\project\Latte.jpeg" class="card-img-top">
+          <div class="card-body">
+            <h5>Latte</h5>
+            <p>₹200</p>
+            <button class="btn btn-dark" onclick="addToCart('Latte', 200)">
+  Order Now
+</button>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card text-center">
+          <img src="D:\sahana\project\Americano.jpeg" class="card-img-top">
+          <div class="card-body">
+            <h5>Americano</h5>
+            <p>₹160</p>
+            <button class="btn btn-dark" onclick="addToCart('Americano', 160)">
+  Order Now
+</button>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-3">
+        <div class="card text-center">
+          <img src="D:\sahana\project\Macha.jpeg" class="card-img-top">
+          <div class="card-body">
+            <h5>Mocha</h5>
+            <p>₹180</p>
+            <button class="btn btn-dark" onclick="addToCart('Mocha', 180)">
+  Order Now
+</button>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card text-center">
+          <img src="D:\sahana\project\Macchito.jpeg" class="card-img-top">
+          <div class="card-body">
+            <h5>Macchiato</h5>
+            <p>₹140</p>
+            <button class="btn btn-dark" onclick="addToCart('Macchiato', 140)">
+  Order Now
+</button>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card text-center">
+          <img src="D:\sahana\project\Flat White.jpeg" class="card-img-top">
+          <div class="card-body">
+            <h5>Flat white</h5>
+            <p>₹170</p>
+           <button class="btn btn-dark" onclick="addToCart('Flat white', 170)">
+  Order Now
+</button>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card text-center">
+          <img src="D:\sahana\project\Cartado.jpeg" class="card-img-top">
+          <div class="card-body">
+            <h5>Coratado</h5>
+            <p>₹130</p>
+            <button class="btn btn-dark" onclick="addToCart('Coratado', 130)">
+  Order Now
+</button>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card text-center">
+          <img src="D:\sahana\project\Irish Coffe.jpeg" class="card-img-top">
+          <div class="card-body">
+            <h5>Irish Coffee</h5>
+            <p>₹220</p>
+            <button class="btn btn-dark" onclick="addToCart('Irish Coffee', 220)">
+  Order Now
+</button>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card text-center">
+          <img src="D:\sahana\project\Affogato.jpeg" class="card-img-top">
+          <div class="card-body">
+            <h5>Affogato</h5>
+            <p>₹200</p>
+           <button class="btn btn-dark" onclick="addToCart('Affogato', 200)">
+  Order Now
+</button>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card text-center">
+          <img src="D:\sahana\project\Ristretto.jpeg" class="card-img-top">
+          <div class="card-body">
+            <h5>Ristretoo</h5>
+            <p>₹90</p>
+            <button class="btn btn-dark" onclick="addToCart('Ristretoo', 90)">
+  Order Now
+</button>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card text-center">
+          <img src="D:\sahana\project\Cold Brew.jpeg" class="card-img-top">
+          <div class="card-body">
+            <h5>Cold Brew</h5>
+            <p>₹190</p>
+            <button class="btn btn-dark" onclick="addToCart('Cold Brew', 190)">
+  Order Now
+</button>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<footer class="bg-dark text-white text-center py-3">
+  © 2026 CoffeeHouse. All rights reserved.
+</footer>
+
+
+<!-- LOGIN MODAL -->
+<div class="modal fade" id="loginModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content p-3">
+
+      <h4>Login</h4>
+
+      <input type="email" id="popupEmail" placeholder="Enter Email" class="form-control mb-2">
+      <input type="password" id="popupPassword" placeholder="Enter Password" class="form-control mb-2">
+
+      <button class="btn btn-success" onclick="loginFromPopup()">Login</button>
+
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+<script src="auth.js"></script>
+<script src="cart.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Cart</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="D:\sahana\project\coffeecss.css">
+</head>
+<body id="cart">
+ <nav class="navbar navbar-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="menu.html" style="color:rgb(233, 223, 220)"><b class="bi bi-house-heart"><br>Coffee</b></a>
+        
+        <a href="bill.html" class="btn btn-success ms-2">
+  Go to Bill 🧾
+</a>
+    </div>
+</nav>
+<div class="container py-5">
+  <h2 class="text-center mb-4">🛒 Your Coffee Cart</h2>
+
+  <table class="table table-bordered text-center">
+    <thead class="table-dark">
+      <tr>
+        <!-- <th>#</th>
+        <th>Coffee</th>
+        <th>Price (₹)</th>
+        <th>Action</th> -->
+        <th>#</th>
+<th>Coffee</th>
+<th>Price</th>
+<th>Quantity</th>
+<th>Total</th>
+<th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="cartTable"></tbody>
+  </table>
+  <h4 class="text-end">Total: ₹<span id="totalPrice">0</span></h4>
+
+  <div class="text-center mt-4">
+    <!-- <a href="menu.html" class="btn btn-secondary">⬅ Back to Menu</a>
+    <button class="btn btn-success ms-2" onclick="openCheckout()">
+  Checkout
+</button> --> 
+<button class="btn btn-danger" onclick="clearCart()">Clear Cart</button>
+  </div>
+</div>
+
+<script src="cart.js"></script>
+
+<footer class="bg-dark text-white text-center py-2">
+  © 2026 CoffeeHouse. All rights reserved.
+</footer>
+</body>
+</html>

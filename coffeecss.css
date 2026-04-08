@@ -1,0 +1,107 @@
+
+.carousel-item img{
+  height: 100vh;
+  object-fit: cover;
+}
+.carousel-caption{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  bottom: auto;
+}
+.nav-item{
+  font-size: 25px;
+}
+
+/* Cards */
+.card img {
+  height: 300px;
+  object-fit: cover;
+}
+ 
+/* footer {
+  font-size: 14px;
+} */
+
+ #menu{
+  
+  background: url(bg2.jpeg);
+ }
+body#cart {
+  background: url('bg2.jpeg') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.container {
+  flex: 1;
+}
+body#auth {
+  background: url('bg2.jpeg') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.container {
+  flex: 1;
+}
+  
+ 
+#about{
+    min-height: 100vh;
+    background: url("bg2.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 25px;
+  width: 320px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+
+a:hover {
+  text-decoration: underline;
+}
+
+.form-field.error input {
+  border: 2px solid wheat;
+}
+
+.form-field.success input {
+  border: 2px solid green;
+}
+
+.form-field small {
+  color: white;
+  font-size: 12px;
+}

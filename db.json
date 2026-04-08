@@ -1,0 +1,78 @@
+{
+  "cart": [],
+  "users": [
+    {
+      "name": "Ashish Airani",
+      "email": "ashishairani20@gmail.com",
+      "password": "123456789",
+      "id": "3caJqlBMdO4"
+    },
+    {
+      "name": "sahana sanadi",
+      "email": "sahana123@gmail.com",
+      "password": "789456123",
+      "id": "lhBwZa8OEi4"
+    },
+    {
+      "name": "sahana",
+      "email": "sahanasanadi1436@gmail.com",
+      "password": "159753",
+      "id": "CRWtsRgeRTU"
+    },
+    {
+      "name": "usha",
+      "email": "usha@gmail.com",
+      "password": "369258",
+      "id": "-I3Ypo1gnS8"
+    },
+    {
+      "name": "preethi",
+      "email": "preethi@gmsil.com",
+      "password": "159951",
+      "id": "iqZhb0toVPI"
+    },
+    {
+      "name": "usha",
+      "email": "usha@email.com",
+      "password": "Usha@123",
+      "id": "RunrLbcr_3Y"
+    },
+    {
+      "name": "pooja",
+      "email": "pooja123@gmail.com",
+      "password": "Pooja@1234",
+      "id": "SJjYjGJn8cM"
+    },
+    {
+      "name": "Nehru",
+      "email": "nehru@gmail.com",
+      "password": "Nehru123@",
+      "id": "i0MKqpITFxQ"
+    },
+    {
+      "name": "Teju",
+      "email": "teju@gmail.com",
+      "password": "Teju123@",
+      "id": "tN492I2F2J8"
+    },
+    {
+      "name": "Ganishka",
+      "email": "ganishka@gmail.com",
+      "password": "Ganishka123@",
+      "id": "5TYNiI5txqs"
+    },
+    {
+      "name": "sahana",
+      "email": "sahanasanadi1436@gmail.com",
+      "password": "Sahana@123",
+      "id": "RPOaq-uhaQ8"
+    },
+    {
+      "name": "Sahana",
+      "email": "sahanasanadi1436@gmail.com",
+      "password": "Sahana@123",
+      "id": "TD0sGLAdxnI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
